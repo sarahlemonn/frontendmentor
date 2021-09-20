@@ -1,3 +1,5 @@
+## <div align="center">[Link to the live version of this challenge](https://order-summary-component-main-lac.vercel.app/)</div>
+
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
