@@ -1,0 +1,200 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* MAIN COLOR VALUES */
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+/* mini reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: var(--very-light-gray);
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90vw;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 4rem 1rem;
+}
+
+.card {
+    min-height: 29rem;
+    height: auto;
+    padding: 1.5rem 3.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.card:nth-child(1) {
+    background-color: var(--bright-orange);
+}
+
+.card:nth-child(2) {
+    background-color: var(--dark-cyan);
+}
+
+.card:nth-child(3) {
+    background-color: var(--very-dark-cyan);
+}
+
+img {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+}
+
+.title-card {
+    font-family: "Big Shoulders Display", cursive;
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.description-card {
+    color: var(--transparent-white);
+    line-height: 1.8rem;
+}
+
+.learn-more-link {
+    display: block;
+    text-decoration: none;
+    background-color: var(--very-light-gray);
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    padding: 1rem 2rem;
+    border-radius: 999px;
+    border: 2px solid var(--very-light-gray);
+}
+
+.card:nth-child(1) .learn-more-link {
+    color: var(--bright-orange);
+}
+
+.card:nth-child(2) .learn-more-link {
+    color: var(--dark-cyan);
+}
+
+.card:nth-child(3) .learn-more-link {
+    color: var(--very-dark-cyan);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 1rem;
+}
+
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
+
+
+/* RESPONSIVE (mobile first approach) */
+
+@media screen and (min-width: 600px) {
+
+    img, .learn-more-link {
+        margin: 0 auto;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 950px) {
+
+    img, .learn-more-link {
+        margin: 0;
+    }
+
+    .card {
+        text-align: left;
+        min-height: 35rem;
+    }
+
+    .title-card {
+        font-size: 2.7rem;
+    }
+
+    .container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .learn-more-link:hover {
+        background-color: transparent;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .card:nth-child(1) .learn-more-link:hover, .card:nth-child(2) .learn-more-link:hover, .card:nth-child(3) .learn-more-link:hover {
+        color: var(--transparent-white);
+    }
+
+
+
+}
+
+@media screen and (min-width: 1300px) {
+
+    .container {
+        width: 70vw;
+    }
+
+    .description-card {
+        margin: 0 1rem 2.8rem 0;
+    }
+
+}
