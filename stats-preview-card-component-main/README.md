@@ -1,3 +1,5 @@
+## <div align="center">[Link to the live version of this challenge](https://stats-preview-card-component-main-pi.vercel.app/)</div>
+
 # Frontend Mentor - Stats preview card component
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
