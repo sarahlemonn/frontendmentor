@@ -1,3 +1,5 @@
+## <div align="center">[Link to the live version of this challenge](https://3-column-preview-card-component-main-kappa-six.vercel.app/)</div>
+
 # Frontend Mentor - 3-column preview card component
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
