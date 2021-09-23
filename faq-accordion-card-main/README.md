@@ -1,3 +1,5 @@
+## <div align="center">[Link to the live version of this challenge](https://sarahlemonn.github.io/frontendmentor/faq-accordion-card-main/index.html)</div>
+
 # Frontend Mentor - FAQ accordion card
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)

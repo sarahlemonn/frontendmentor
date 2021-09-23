@@ -11,3 +11,5 @@ To see the live version of these challenges, check out the links below :
 03 - [3 Column Preview Card Component Main](https://3-column-preview-card-component-main-kappa-six.vercel.app/)
 
 04 - [Profile Card Component Main](https://sarahlemonn.github.io/frontendmentor/profile-card-component-main/index.html)
+
+05 - [FAQ Accordion Card Main](https://sarahlemonn.github.io/frontendmentor/faq-accordion-card-main/index.html)
