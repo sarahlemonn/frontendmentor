@@ -9,3 +9,5 @@ To see the live version of these challenges, check out the links below :
 02 - [Stats Preview Card Component Main](https://stats-preview-card-component-main-pi.vercel.app/)
 
 03 - [3 Column Preview Card Component Main](https://3-column-preview-card-component-main-kappa-six.vercel.app/)
+
+04 - [Profile Card Component Main](https://sarahlemonn.github.io/frontendmentor/profile-card-component-main/index.html)

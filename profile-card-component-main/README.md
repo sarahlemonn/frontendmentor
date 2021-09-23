@@ -1,3 +1,5 @@
+## <div align="center">[Link to the live version of this challenge](https://sarahlemonn.github.io/frontendmentor/profile-card-component-main/index.html)</div>
+
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
