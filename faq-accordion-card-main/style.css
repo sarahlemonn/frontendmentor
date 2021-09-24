@@ -200,6 +200,8 @@ body {
         width: 83vw;
         padding-bottom: 0;
         position: relative;
+        margin-top: 0;
+        padding-bottom: 0;
     }
 
     .svgs-container {
