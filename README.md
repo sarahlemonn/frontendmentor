@@ -13,3 +13,5 @@ To see the live version of these challenges, check out the links below :
 04 - [Profile Card Component Main](https://sarahlemonn.github.io/frontendmentor/profile-card-component-main/index.html)
 
 05 - [FAQ Accordion Card Main](https://sarahlemonn.github.io/frontendmentor/faq-accordion-card-main/index.html)
+
+05 - [Social Proof Section Master](https://sarahlemonn.github.io/frontendmentor/social-proof-section-master/index.html)
